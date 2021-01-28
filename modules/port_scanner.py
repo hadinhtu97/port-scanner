@@ -52,6 +52,6 @@ def get_return_string(target, list_open_ports):
         spaceBetween = 9 - len(port)
         for i in range(spaceBetween):
             returnString += ' '
-        returnString += str(common_ports.ports_and_services[int(port)])
+        returnString += str(common_ports.ports_and_services[int(port)]) + '\n'
 
     return returnString
